@@ -1,0 +1,27 @@
+{
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true,
+      "source.organizeImports": true,
+      "source.fixAll": true
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "eslint.packageManager": "yarn",
+  "extensions.autoUpdate": false,
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.autoFixOnSave": true,
+  "[css]": {
+    "editor.formatOnSave": false
+  },
+  "[scss]": {
+    "editor.formatOnSave": false
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "afterDelay",
+  "eslint.codeAction.disableRuleComment": {
+
+  },
+  "liveServer.settings.root": "/src"
+}
